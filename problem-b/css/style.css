@@ -1,0 +1,42 @@
+header {
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  padding: .5em;
+  border-bottom: 1px thick solid;
+  background-color: #d3d3d3;
+}
+
+thead {
+  height: 2rem;
+  text-align: left;
+  color: #1db954;
+  background-color: #d3d3d3;
+}
+
+tbody {
+  background-color: #eee;
+}
+
+tbody tr:nth-child(-n + 5) {
+  border: 2px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e2f9df;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+tbody tr:hover td {
+  background: pink;
+}
