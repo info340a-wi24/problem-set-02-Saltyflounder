@@ -37,6 +37,6 @@ img {
   width: 100px;
 }
 
-tbody tr:hover td {
+tbody tr:hover {
   background: pink;
 }
