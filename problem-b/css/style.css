@@ -11,6 +11,7 @@ table {
   padding: .5em;
   border-bottom: 1px thick solid;
   background-color: #d3d3d3;
+  width: 50%;
 }
 
 thead {
