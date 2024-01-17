@@ -8,29 +8,27 @@ table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
-  padding: .5em;
-  border-bottom: 1px thick solid;
-  background-color: #d3d3d3;
   width: 50%;
 }
 
-thead {
+th {
   height: 2rem;
   text-align: left;
   color: #1db954;
   background-color: #d3d3d3;
 }
 
-tbody {
-  background-color: #eee;
+td, th {
+  padding: .5em;
+  border-bottom: 1px solid #d3d3d3;
 }
 
-tbody tr:nth-child(-n + 5) {
-  border: 2px solid black;
+tbody {
+  background-color: #e2f9df;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #e2f9df;
+  background-color: #eee;
 }
 
 img {
@@ -39,5 +37,5 @@ img {
 }
 
 tbody tr:hover {
-  background: pink;
+  background-color: pink;
 }
